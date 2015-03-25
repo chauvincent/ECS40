@@ -1,0 +1,12 @@
+To run, point to the directory containing your source files.  Make sure the script is executable first.
+
+$ chmod a+x ./grade.sh
+$ ./grade.sh <directory-containing-mscp.cpp>
+
+e.g. for the reference program:
+$ ./grade.sh ../handin/reference
+
+Reference output is stored in 'ref.out'.  Output from your version will be in 'out'.  To see the differences, use diff:
+
+$ diff -u ref.out out
+

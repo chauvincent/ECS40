@@ -1,0 +1,3 @@
+This is homework assignment that implements pure abstract virtual in C++.
+The assignment is a search query similar to a search engine.
+We implemented a hamming distance algorithm.

@@ -1,0 +1,7 @@
+// Vincent Chau (vchau8), Kevin Chan (kchan27)
+// Homework 5
+
+* Each of our functions for VectorList and LinkedList works fine.
+
+* We tested our functions by extending main and adding more options to the menu. In addition, we created a "func" and "predicate" function, which we made to increment 1 for map and either always return true or false for testing our filter.
+

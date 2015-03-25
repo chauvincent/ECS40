@@ -1,0 +1,19 @@
+// Vincent Chau (vchau8), Kevin Chan (kchan27)
+// Homework 5
+
+* Each of our functions for VectorList and LinkedList works fine.
+
+* We tested our functions by extending main and adding more options to the menu. In addition, we created a "func" and "predicate" function, which we made to increment 1 for map and either always return true or false for testing our filter.
+
+* For shared, our classmates on piazza are declaring their l2 with type <int>. However, we found it causing errors because we declared out l2 inside our case functions which is suppose to compare <int> and also <double> so we used the template type T to test our shared function for both LinkedList and VectorList to avoid cross instatiation errors of int and double, and it works fine.
+
+* We posted to piazza and also referred to our classmate's posts.
+
+* We used stackoverflow for algorithms on sorting, and reversing, and implemented their algorithms into our program. 
+
+(http://www.cplusplus.com/forum/general/103464/)
+(http://stackoverflow.com/questions/11019722/how-to-reverse-a-vector-of-strings-in-c)
+(http://www.dreamincode.net/forums/topic/140469-reversing-the-order-of-a-vector/)
+(http://stackoverflow.com/questions/4542600/interview-question-remove-duplicates-from-an-unsorted-linked-list)
+(http://codereview.stackexchange.com/questions/17772/removing-duplicates-from-an-unsorted-linked-list)
+

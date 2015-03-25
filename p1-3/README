@@ -1,0 +1,42 @@
+Authors: Vincent Chau (CSIF: vchau8) and Kevin Chan(CSIF: kchan27)
+
+Our code compiles and runs fine. All the outputs match the reference 
+provided with the gradescipt.
+	
+Changes made:
+
+1. We first separated all the inline functions and const variables into board.h because
+   both board.cpp and mscp.cpp will be using those same functions and declarations.
+   
+2. We replace the sscanf's with by using istringstream(from stackoverflow). 
+
+3. We declared a class Board inside board.h. Then made a constructor that allocated 
+   a private variable for the boardSize of 67. 
+
+4. We declared overloaded subscript operator inside our class, and redeclared board as bboard
+   inside mscp.cpp.
+
+5. We moved setup_board, print_board, compute_hash, and reset into our Board class 
+   as public member functions. Because we drew a diagram of all the function calls and those function
+   were responsible for manipulating the board(execept for the moves).
+
+6. We changed the static declarations such as undo_stack, move_stack, and etc into extern. 
+   We redeclared the variables inside mscp.cpp.
+
+7. We changed ply to extern because it is responsible for deciding white/black's turn.
+
+8. We had also had help from our awesome TA, Saheel. We were having undefined references to 
+   our hw3, and Saheel helped us resolve the problem with the makefile(we did not include the .o's before).  
+
+
+  
+
+ 
+
+ 
+
+ 
+
+
+
+
